@@ -9,9 +9,9 @@ object Form1: TForm1
   OnCreate = FormCreate
   LCLVersion = '1.6.4.0'
   object DBNavigator1: TDBNavigator
-    Left = 88
+    Left = 104
     Height = 25
-    Top = 888
+    Top = 704
     Width = 241
     BevelOuter = bvNone
     ChildSizing.EnlargeHorizontal = crsScaleChilds
@@ -39,17 +39,17 @@ object Form1: TForm1
   end
   object PageControl1: TPageControl
     Left = 96
-    Height = 696
+    Height = 608
     Top = 96
-    Width = 1104
+    Width = 1048
     ActivePage = TabSheet2
     TabIndex = 0
     TabOrder = 1
     OnChange = PageControl1Change
     object TabSheet2: TTabSheet
       Caption = 'Таблица продуктов'
-      ClientHeight = 670
-      ClientWidth = 1096
+      ClientHeight = 582
+      ClientWidth = 1040
       object DBGrid4: TDBGrid
         Left = 24
         Height = 288
@@ -113,6 +113,12 @@ object Form1: TForm1
         Name = 'Фото'
         DataType = ftMemo
         Precision = -1
+      end    
+      item
+        Name = 'Калории(на 100гр)'
+        DataType = ftFixedChar
+        Precision = -1
+        Size = 150
       end>
     Active = True
     Database = MySQL51Connection1

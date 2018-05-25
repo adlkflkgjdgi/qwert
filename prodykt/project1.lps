@@ -19,7 +19,7 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Unit1"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="35"/>
+        <TopLine Value="16"/>
         <CursorPos X="28" Y="61"/>
         <ComponentState Value="1"/>
         <UsageCount Value="25"/>

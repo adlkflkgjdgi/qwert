@@ -4,14 +4,14 @@ object Form1: TForm1
   Top = 186
   Width = 1017
   Caption = 'Form1'
-  ClientHeight = 0
-  ClientWidth = 0
+  ClientHeight = 730
+  ClientWidth = 1017
   OnCreate = FormCreate
   LCLVersion = '1.6.4.0'
   object DBNavigator1: TDBNavigator
-    Left = 88
+    Left = 112
     Height = 25
-    Top = 888
+    Top = 752
     Width = 241
     BevelOuter = bvNone
     ChildSizing.EnlargeHorizontal = crsScaleChilds
@@ -30,7 +30,7 @@ object Form1: TForm1
     Left = 304
     Height = 40
     Top = 32
-    Width = 255
+    Width = 640
     AutoSize = False
     Caption = 'Label1'
     Font.Height = -27
@@ -113,6 +113,12 @@ object Form1: TForm1
         Name = 'Фото'
         DataType = ftMemo
         Precision = -1
+      end    
+      item
+        Name = 'Калории(на 100гр)'
+        DataType = ftFixedChar
+        Precision = -1
+        Size = 150
       end>
     Active = True
     Database = MySQL51Connection1
